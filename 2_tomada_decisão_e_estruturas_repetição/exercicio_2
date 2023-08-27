@@ -1,0 +1,42 @@
+'''
+1. Faça um Programa que peça dois números e imprima o maior deles. 
+
+2. Faça um Programa que pergunte em que turno você estuda. Peça para digitar M-matutino ou V-Vespertino ou N-Noturno. Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou" Valor Inválido!", conforme o caso. 
+
+3. Faça um programa que peça uma nota, entre zero e dez. Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o usuário informe um valor válido.
+'''
+
+# Questão 1:
+
+# numero1 = int(input('Informe seu primeiro número: '))
+
+# numero2 = int(input('Informe seu segundo número: '))
+
+# if (numero1 > numero2):
+#     print(f'O maior número é: {numero1}')
+# else:
+#     print(f'O maior número é: {numero2} ')
+
+# Questão 2:
+
+# turno = input("Informe a letra do turno você estuda: M(Matutino), V(Vespertino) ou N(Noturno): ")
+
+# if (turno == 'M') | (turno == 'm'):
+#     print('Bom dia!')
+# elif (turno == 'V') | (turno == 'v'):
+#      print('Boa tarde!')
+# elif (turno == 'N') | (turno == 'n'):
+#      print('Boa noite!')
+# else:
+#     print('Valor Inválido!')
+
+# Questão 3:
+
+# nota = float(input('Informe uma nota entre zero e dez: '))
+
+# while (nota < 0) or (nota > 10):
+#     print('Valor Inválido! Tente novamente.')
+
+#     nota = float(input('Informe uma nota entre zero e dez: '))
+
+# print(f'{nota} é um valor válido.')
