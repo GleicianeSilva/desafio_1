@@ -24,68 +24,75 @@ Ex: n = leiaInt(‘Digite um n’)
 
 '''
 
+
 # Questão 1:
 
-# valores = {'Dólar Americano': 4.91,'Peso Argentino': 0.02,'Dólar Australiano': 3.18,'Dólar Canadense': 3.64,'Franco Suiço': 0.42,'Euro': 5.36,'Libra Esterlina': 6.21}
+valores = {'Dólar Americano': 4.91,'Peso Argentino': 0.02,'Dólar Australiano': 3.18,'Dólar Canadense': 3.64,'Franco Suiço': 0.42,'Euro': 5.36,'Libra Esterlina': 6.21}
 
-# dinheiro = float(input('\nInforme a quantidade de dinheiro que você tem em sua carteira: R$'))
+dinheiro = float(input('\nInforme a quantidade de dinheiro que você tem em sua carteira: R$'))
 
-# for valor, valor_quantidade in valores.items():
+for valor, valor_quantidade in valores.items():
 
-#     novo_valor = (dinheiro/valor_quantidade)
+    novo_valor = (dinheiro/valor_quantidade)
 
-#     print(f'\nValor ({valor}): {novo_valor:.2f}')
+    print(f'\nValor ({valor}): {novo_valor:.2f}')
     
-# print('\n')
+print('\n')
+
+
 
 # Questão 2:
 
-# qnt_km = float(input('\nInforme a quantidade de quilometro percorrido pelo carro alugado: '))
+qnt_km = float(input('\nInforme a quantidade de quilometro percorrido pelo carro alugado: '))
 
-# qnt_dias = float(input('\nInforme a quantidade de dias que o carro foi alugado: '))
+qnt_dias = float(input('\nInforme a quantidade de dias que o carro foi alugado: '))
 
-# custo_km = qnt_km * 0.20
+custo_km = qnt_km * 0.20
 
-# custo_dias = qnt_dias * 80
+custo_dias = qnt_dias * 80
 
-# preco_pagar = custo_km + custo_dias
+preco_pagar = custo_km + custo_dias
 
-# print(f'\nO preço total pago será: {preco_pagar:.2f}')
+print(f'\nO preço total pago será: {preco_pagar:.2f}')
+
+
 
 # Questão 3:
 
-# salario = float(input('\nInforme seu salário: R$'))
+salario = float(input('\nInforme seu salário: R$'))
 
-# if salario <= 1000:
-#     novo_salario = salario + (salario * 0.2)
+if salario <= 1000:
+    novo_salario = salario + (salario * 0.2)
 
-# elif salario <= 1001 or salario <= 2800:
-#     novo_salario = salario + (salario * 0.1)
+elif salario <= 1001 or salario <= 2800:
+    novo_salario = salario + (salario * 0.1)
 
-# else:
-#     novo_salario = salario + (salario * 0.05)
+else:
+    novo_salario = salario + (salario * 0.05)
 
-# print(f'\nNovo salário: R${novo_salario:.2f}')
+print(f'\nNovo salário: R${novo_salario:.2f}')
 
-#print('\n')
+print('\n')
+
+
 
 # Questão 4:
 
-# def leiaInt(n):
+def leiaInt(n):
 
-#     while True:
+    while True:
 
-#         try:
-#             numero_inteiro = int(input(n))
-#             return numero_inteiro
+        try:
+            numero_inteiro = int(input(n))
+            return numero_inteiro
         
-#         except ValueError:
+        except ValueError:
 
-#             print('\nERRO! Só é permitido valor númerico inteiro.')
+            print('\nERRO! Só é permitido valor númerico inteiro.')
 
 
-# inteiro = leiaInt('\nDigite um valor númerico: ')
+inteiro = leiaInt('\nDigite um valor númerico: ')
 
-# print(f'\nO valor númerico informado foi: {inteiro}')
+print(f'\nO valor númerico informado foi: {inteiro}')
 
-# print('\n')
+print('\n')

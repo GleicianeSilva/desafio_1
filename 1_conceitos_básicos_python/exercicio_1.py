@@ -9,27 +9,33 @@
 4.Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.Calcule e mostre o total do seu salário no referido mês.
 '''
 
+
 # Questão 1:
 
-# numero = int(input('Informe um numero: '))
-# print(f'O número informado foi {numero}.')
+numero = int(input('Informe um numero: '))
+print(f'O número informado foi {numero}.')
+
+
 
 # Questão 2:
 
-# numero1 = int(input('Informe seu primeiro número: '))
-# numero2 = int(input('Informe seu segundo número: '))
+numero1 = int(input('Informe seu primeiro número: '))
+numero2 = int(input('Informe seu segundo número: '))
 
-# soma = numero1 + numero2
+soma = numero1 + numero2
 
-# print(f'A soma dos números é: {soma}.')
+print(f'A soma dos números é: {soma}.')
+
+
 
 # Questão 3:
 
-# temperatura_C = float(input('Informe uma temperatura em graus Celsius (°C): '))
+temperatura_C = float(input('Informe uma temperatura em graus Celsius (°C): '))
 
-# temperatura_F = ((temperatura_C * 1.8) + 32)
+temperatura_F = ((temperatura_C * 1.8) + 32)
 
-# print(f'O valor da temperatura em graus Fahrenheit é: {temperatura_F}.')
+print(f'O valor da temperatura em graus Fahrenheit é: {temperatura_F}.')
+
 
 
 # Questão 4:
